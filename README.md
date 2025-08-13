@@ -2,9 +2,9 @@
 
 ## TODO
 
-- [ ] Make it eploy
-- [ ] Scaffold basic uio with mock data
-- [ ] Actually set up a database (convex??? Vercel Postgres???)
+- [x] Make it eploy
+- [x] Scaffold basic ui with mock data
+- [x] Actually set up a database (convex??? Vercel Postgres???)
 - [ ] Attach database to UI
 - [ ] Add authentication
 - [ ] Add image upload

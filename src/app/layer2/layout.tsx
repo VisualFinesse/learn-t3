@@ -9,14 +9,6 @@ export const metadata: Metadata = {
   icons: [{ rel: "icon", url: "/favicon.ico" }],
 };
 
-function TopNav() {
-  return(
-    <nav className="flex w-full items-center justify-between p-4 text-3xl semi-bold">
-      <h1>Gallery</h1>
-    </nav>
-  )
-}
-
 const geist = Geist({
   subsets: ["latin"],
   variable: "--font-geist-sans",
@@ -26,9 +18,9 @@ export default function RootLayout({
   children,
 }: Readonly<{ children: React.ReactNode }>) {
   return (
-    <html lang="en" className={`${geist.variable}`}>
-      <div className="w-full"> First Layout</div>
-      <body>{children}</body>
-    </html>
+    <div>
+      <div className="w-full"> Second Layout</div>
+      {children}
+    </div>
   );
 }
